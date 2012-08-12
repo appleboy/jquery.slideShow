@@ -103,9 +103,14 @@
             else
             {
                 var new_width = this.numSlides * this.options.slideSize.width;
+
                 this.find('.slides').css({
                     width: new_width + 'px',
                     position: 'absolute'
+                });
+                this.find('.slide').css({
+                    width: this.options.slideSize.width + 'px',
+                    float: 'left'
                 });
             }
 
