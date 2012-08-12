@@ -102,7 +102,7 @@
             }
             else
             {
-                var new_width = this.find('.slide').length * this.find('.slide').find('img').width();
+                var new_width = this.numSlides * this.options.slideSize.width;
                 this.find('.slides').css({
                     width: new_width + 'px',
                     position: 'absolute'
@@ -327,7 +327,7 @@
                             }
                             break;
                         case 'slideshow':
-                            this.find(".slides").animate({left: index * -this.find('.slide').find('img').width()}, this.options.transition.speed, Finished);
+                            this.find(".slides").animate({left: index * -this.options.slideSize.width}, this.options.transition.speed, Finished);
                             break;
                     }
                 }
