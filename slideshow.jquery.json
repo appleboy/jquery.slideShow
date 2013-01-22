@@ -1,0 +1,31 @@
+{
+    "name": "slideshow",
+    "title": "SlideShow",
+    "version": "1.0.7",
+    "description": "This simple slideshow plugin will provide your effect gallery",
+    "author": {
+        "name": "Marcel Eichner",
+        "url": "https://github.com/Ephigenia/jquery.slideShow"
+    },
+    "maintainers": [
+        {
+            "name": "Bo-Yi Wu",
+            "url": "https://github.com/appleboy"
+        }
+    ],
+    "bugs": "https://github.com/appleboy/jquery.slideShow/issues",
+    "homepage": "http://blog.wu-boy.com/2012/08/a-lightweight-jquery-slideshow-plugin/",
+    "docs": "http://appleboy.github.com/jquery/example_2/",
+    "demo": "http://appleboy.github.com/jquery/example_2/",
+    "dependencies": {
+        "jquery": ">=1.7"
+    },
+    "keywords": [
+        "slide"
+        "show"
+    ],
+    "files": [
+        "jquery.slideshow.js",
+        "jquery.slideshow.min.js"
+    ]
+}
