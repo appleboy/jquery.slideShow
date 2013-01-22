@@ -1,7 +1,7 @@
 {
     "name": "slideshow",
-    "title": "SlideShow",
-    "version": "1.0.7",
+    "title": "jQuery SlideShow",
+    "version": "1.0.8",
     "description": "This simple slideshow plugin will provide your effect gallery",
     "author": {
         "name": "Marcel Eichner",
@@ -13,6 +13,10 @@
             "url": "https://github.com/appleboy"
         }
     ],
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://raw.github.com/aarongloege/jquery.tap/master/LICENCE"
+    }],
     "bugs": "https://github.com/appleboy/jquery.slideShow/issues",
     "homepage": "http://blog.wu-boy.com/2012/08/a-lightweight-jquery-slideshow-plugin/",
     "docs": "http://appleboy.github.com/jquery/example_2/",
@@ -21,7 +25,7 @@
         "jquery": ">=1.7"
     },
     "keywords": [
-        "slide"
+        "slider",
         "show"
     ],
     "files": [

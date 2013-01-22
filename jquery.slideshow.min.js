@@ -1,5 +1,5 @@
 /**
- *  jquery.slideShow (1.0.7)
+ *  jquery.slideShow (1.0.8)
  *  by Marcel Eichner (www.marceleichner.de) <love@ephigenia.de>
  *      and charles kline <ckline@discmakers.com>
  *      and Bo-Yi Wu <appleboy.tw@gmail.com>
