@@ -1,4 +1,7 @@
 {
     "name" : "jquery.slideShow",
-    "version" : "1.0.7"
+    "version" : "1.0.7",
+    "dependencies": {
+        "jquery": "~1.7.2"
+    }
 }
